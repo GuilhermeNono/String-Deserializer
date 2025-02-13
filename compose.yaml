@@ -1,0 +1,6 @@
+﻿services:
+  pocogenerator:
+    image: pocogenerator
+    build:
+      context: .
+      dockerfile: PocoGenerator/Dockerfile
