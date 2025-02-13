@@ -6,14 +6,14 @@ var folderName = string.Empty;
 
 while (true)
 {
-    Console.WriteLine("Informe o nome da classe base: ");
+    Console.WriteLine("Enter the name of the base classe: ");
     Console.Write(">");
 
     folderName = Console.ReadLine();
 
     if (string.IsNullOrEmpty(folderName))
     {
-        Console.WriteLine("\nPor favor informe um nome válido para a classe.");
+        Console.WriteLine("\nPlease, enter a valid name.");
         ReadAndClear();
         continue;
     }
@@ -23,7 +23,7 @@ while (true)
 
     if (string.IsNullOrEmpty(jsonSerialized))
     {
-        Console.WriteLine("\nPor favor informe um json valido.");
+        Console.WriteLine("\nPlease, enter a valid json.");
         ReadAndClear();
         continue;
     }
@@ -34,7 +34,7 @@ while (true)
 
     await GenerateOutput(stream, folderName);
 
-    Console.WriteLine($"\nO json foi serializado como {folderName}.cs");
+    Console.WriteLine($"\nThe json was deserialized into {folderName}.cs");
 
     ReadAndClear();
 }
