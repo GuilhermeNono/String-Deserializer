@@ -6,6 +6,17 @@
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
         <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+        <Title>PocoGenerator</Title>
+        <Authors>GuilhermeNono</Authors>
+        <PackageProjectUrl>https://github.com/GuilhermeNono/String-Deserializer</PackageProjectUrl>
+        <PackageLicenseUrl>https://github.com/GuilhermeNono/String-Deserializer/blob/master/LICENSE</PackageLicenseUrl>
+        <PackageIcon>43996917.png</PackageIcon>
+        <RepositoryUrl>https://github.com/GuilhermeNono/String-Deserializer</RepositoryUrl>
+        <Company>GuilhermeNono</Company>
+        <AssemblyVersion>1.0.0</AssemblyVersion>
+        <FileVersion>1.0.0</FileVersion>
+        <AssemblyOriginatorKeyFile>GuilhermeNono.snk</AssemblyOriginatorKeyFile>
+        <PublicSign>true</PublicSign>
     </PropertyGroup>
 
     <ItemGroup>
